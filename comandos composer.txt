@@ -1,0 +1,6 @@
+// criar tabela
+php artisan migrate
+
+// abre o site
+php artisan serve
+

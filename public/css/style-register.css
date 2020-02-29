@@ -1,0 +1,52 @@
+.wrapper{
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 3fr 6fr 3fr;
+    grid-template-rows: repeat(2, auto);
+    margin-top: 90px;
+}
+
+.panel{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.tituloCadastro{
+    text-align: center;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.botaoForm{
+    color: #fff;
+    font-weight: bold;
+    background-color: #42b984;
+}
+
+#cadastroLogin a{
+    color: #42b984;
+    text-decoration: none;
+}
+
+.form-group{
+    width: 850px;
+}
+
+.panel-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoesCadastro{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.botaoLimpar{
+    grid-column: 3;
+}
+
+.botaoCadastrar{
+    grid-column: 4;
+}

@@ -1,0 +1,96 @@
+.search-professional {
+  padding: 120px 0px;
+}
+.professional {
+  padding-top: 50px;
+}
+.search-professional .search {
+  background-color: #ccc;
+}
+.search-professional .divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #005284;
+  width: 100%;
+  padding: 0;
+}
+
+#btnBusca{
+  background:#005284;
+  padding-left: 16px;
+}
+
+.search-professional #txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:14px;
+  border:none;
+  height:32px;
+  width:235px;
+}
+.styled-select select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px;
+    width: 100%;
+    background-color: #005284;
+    color:#FFF;
+    -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+.clearfix {
+    overflow: auto;
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+text-align: center;
+margin: 20px 0px;
+}
+
+.card .title {
+color: grey;
+font-size: 18px;
+}
+.card img {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.card button {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color:#2dc997;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+.card .star {
+  text-align: center;
+}
+.card a {
+text-decoration: none;
+font-size: 22px;
+color: black;
+}
+.card button:hover, .card a:hover {
+opacity: 0.7;
+}
+.active {
+    color:gold;
+}
+.card .fa{
+    font-size: 24px;
+}
+.search-professional .professional .card img {
+    height: 300px !important;
+    object-fit: cover;
+    object-position: center;
+}
